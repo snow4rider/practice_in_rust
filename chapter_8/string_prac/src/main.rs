@@ -1,6 +1,10 @@
 fn main() {
+
+
     let mut s = String::new();
-    s.push('s');
+    s.push('I');
+    s.push(' ');
+    s.push_str("am");
     println!{"{}",s};
 
     let data = "initial contents";
@@ -10,6 +14,11 @@ fn main() {
     let c = "initial contents".to_string();
     println!("{}", c);
 
+    for i in s.bytes(){
+        println!("{}", i);
+    }
 
-    //println!("Hello, world!");
+    for i in s.chars(){
+        println!("{}",i);
+    }  
 }
