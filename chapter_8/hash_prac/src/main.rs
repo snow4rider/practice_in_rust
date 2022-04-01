@@ -24,4 +24,20 @@ fn main() {
 
     let mut map = HashMap::new();
     map.insert(field_name, field_value);
+
+    word_count();
+}
+
+fn word_count() {
+    
+    let text = "hello world wonderful world";
+
+    let mut map = HashMap::new();
+
+    for word in text.split_whitespace() {
+        let count = map.entry(word).or_insert(0);
+        *count += 1;
+    }
+
+    println!("{:?}",map);
 }
