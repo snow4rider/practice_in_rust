@@ -39,3 +39,8 @@ fn median(array: &[i32]) -> f64 {
     }
 }
 // fn mode
+fn mode(array: &[i32]) -> f64 {
+    let len = array.len();
+    
+
+}
