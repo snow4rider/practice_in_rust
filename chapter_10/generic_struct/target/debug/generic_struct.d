@@ -1,0 +1,1 @@
+C:\Users\matth\OneDrive\Desktop\rust\practice_in_rust\chapter_10\generic_struct\target\debug\generic_struct.exe: C:\Users\matth\OneDrive\Desktop\rust\practice_in_rust\chapter_10\generic_struct\src\main.rs
