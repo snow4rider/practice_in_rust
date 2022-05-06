@@ -5,4 +5,6 @@ fn main() {
     println!("Number is {}.", number);
 
     let garage = [[[0; 100]; 20]; 5];
+
+    print!("{}",garage[0][0][0])
 }
