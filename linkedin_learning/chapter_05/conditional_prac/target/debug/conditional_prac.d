@@ -1,0 +1,1 @@
+C:\Users\matth\OneDrive\Desktop\rust\practice_in_rust\linkedin_learning\chapter_05\conditional_prac\target\debug\conditional_prac.exe: C:\Users\matth\OneDrive\Desktop\rust\practice_in_rust\linkedin_learning\chapter_05\conditional_prac\src\main.rs
