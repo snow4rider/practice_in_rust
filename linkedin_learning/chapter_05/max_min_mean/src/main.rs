@@ -24,7 +24,7 @@ fn average(numbers: [i32; 14]) -> f32 {
 }
 
 fn maximum(numbers: [i32; 14]) -> i32{
-    let mut max: i32 = 0;
+    let mut max = numbers[0];
     for num in numbers {
         if num > max{
             max = num;
@@ -36,7 +36,7 @@ fn maximum(numbers: [i32; 14]) -> i32{
 }
 
 fn minimum(numbers: [i32; 14]) -> i32{
-    let mut min: i32 = 0;
+    let mut min = numbers[0] ;
     for num in numbers {
         if num < min {
             min = num;
