@@ -1,0 +1,1 @@
+/Users/matthew/Documents/practice_in_rust/linkedin_learning/chapter_07/trim_spaces/target/debug/trim_spaces: /Users/matthew/Documents/practice_in_rust/linkedin_learning/chapter_07/trim_spaces/src/main.rs
