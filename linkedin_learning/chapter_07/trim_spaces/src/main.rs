@@ -1,5 +1,11 @@
 fn main() {
-    println!("Hello, world!");
+    let test1 = "We need more space.";
+    assert_eq!(trim_spaces(test1), "We need more space.");
+
+    let test2 = String::from("     There's space in front.");
+    assert_eq!(trim_spaces(&test2), "There's space in front.");
+
+    println!("test passed");
 }
 
 fn trim_spaces(s: &str) -> &str {
@@ -18,4 +24,6 @@ fn trim_spaces(s: &str) -> &str {
             break;
         }
     }
+
+    &s[start..end]
 }
