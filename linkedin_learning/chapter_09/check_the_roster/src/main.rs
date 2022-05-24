@@ -2,6 +2,10 @@ use std::env;
 use std::fs;
 
 fn main() {
+    if env::args().len() < 2 {
+        eprintln!("Program requires two arguments: ");
+        std::process::exit(1);
+    }
 
     let arg01 = env::args().nth(1).unwrap();
     let arg02 = env::args().nth(2).unwrap();
