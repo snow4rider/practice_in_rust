@@ -1,0 +1,1 @@
+/Users/matthew/Documents/practice_in_rust/linkedin_learning/chapter_09/check_the_roster/target/debug/check_the_roster: /Users/matthew/Documents/practice_in_rust/linkedin_learning/chapter_09/check_the_roster/src/main.rs
