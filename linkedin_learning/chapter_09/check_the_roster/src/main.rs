@@ -13,10 +13,9 @@ fn main() {
         vec.push(name);
     }
 
-    println!("{}", vec[0]);
-   
-    if full_name == vec[0]{
-        println!("Hello there {}", vec[0]);
+    for name in vec {
+        if full_name == name {
+            println!("The name is on the roster!");
+        }
     }
-
 }
