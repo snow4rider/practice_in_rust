@@ -1,0 +1,1 @@
+C:\Users\matth\OneDrive\Desktop\rust\practice_in_rust\linkedin_learning\chapter_10\tuple_struct_prac\target\debug\tuple_struct_prac.exe: C:\Users\matth\OneDrive\Desktop\rust\practice_in_rust\linkedin_learning\chapter_10\tuple_struct_prac\src\main.rs
