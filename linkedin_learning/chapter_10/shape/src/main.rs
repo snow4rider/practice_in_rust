@@ -1,3 +1,18 @@
+struct Circle{
+    radius: f64,
+    x: f64,
+    y: f64,
+    h: f64,
+    k: f64
+}
+
+impl Circle {
+    fn new(radius: f64, h: f64, k: f64){
+
+
+    }
+}
+
 
 struct Rectangle {
     length: f64,
@@ -8,6 +23,12 @@ impl Rectangle {
     fn get_area(&self) -> f64 {
         let area = self.length * self.width;
         return area;
+    }
+
+    fn get_per(&self) -> f64 {
+        let per = 2.0 * self.length + 2.0 * self.width;
+        return per;
+
     }
 
     fn scale(&mut self, scale: f64) {
