@@ -1,0 +1,1 @@
+C:\Users\matth\OneDrive\Desktop\rust\practice_in_rust\chapter_15\drop_trait_prac\target\debug\drop_trait_prac.exe: C:\Users\matth\OneDrive\Desktop\rust\practice_in_rust\chapter_15\drop_trait_prac\src\main.rs
