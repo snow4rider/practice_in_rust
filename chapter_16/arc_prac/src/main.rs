@@ -17,5 +17,5 @@ fn main() {
     for handle in handles {
         handle.join().unwrap();
     }
-    println!("Result: {}", *counter.lock());
+    println!("Result: {}", *counter.lock().unwrap());
 }
