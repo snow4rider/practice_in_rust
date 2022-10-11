@@ -1,6 +1,6 @@
 use linked::myList;
 use linked::address;
-use linked::append;
+//use linked::append;
 
 fn main() {
     let mut head = myList {
