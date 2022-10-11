@@ -7,8 +7,13 @@ name = "al"
 version = "0.1.0"
 dependencies = [
  "fib",
+ "linked",
 ]
 
 [[package]]
 name = "fib"
+version = "0.1.0"
+
+[[package]]
+name = "linked"
 version = "0.1.0"
